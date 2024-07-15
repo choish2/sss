@@ -21,6 +21,19 @@ header em{display: block;font-size: 14px;text-align: center;margin-top: 4px;font
 .map_box .map{margin-top: 20px;;}
 .map_box .map .root_daum_roughmap .cont *{color: #000;;}
 
+.map_box .map .map img[src = '//t1.daumcdn.net/localimg/localimages/07/2018/pc/map/marker_map01.png'] {animation: tong 0.8s infinite alternate ;}
+@keyframes tong {
+    0% {top:0}
+    50% {top:-20px}
+    
+}
+.map_box .map .roughmap_maker_label { animation: tongtong2 0.4s infinite alternate; animation-delay: 0.1s;}
+@keyframes tongtong2 {
+    0% {top: -57px;}
+    100% {top: -77px;}
+}
+
+
 @media screen and (min-width: 500px){
     header h1{width: 110px;height: 110px;border-radius: 55px;}
     .btn_box{display: flex}
